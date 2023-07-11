@@ -1,0 +1,37 @@
+{{!-- esse index é a tela de login --}}
+
+<title>Sistema Mercadinho| Login</title>
+
+  <div class="content">
+
+    <form action="/loginpost" method="post">
+
+      <div id="icon-user"></div>
+        <input id="nome" name="nome" class="inputText" required placeholder="nome">
+        
+        <div class="clear"></div>
+
+          <div id="icon-password"></div>
+            <input id="password" name="password" class="inputText" type="password" required
+            placeholder="Senha">
+          <div class="clear"></div>
+
+          <button id="btnEntrar" name="btnEntrar" type="submit"> LOGIN </button><br>
+
+
+            <div class="container-senha">
+
+              <div id="esquerda">
+                <input id="chkLembrar" name="chkLembrar" value="Sim" type="checkbox" />
+              </div>
+
+              <div id="direita">
+                <span> <a href="cadastrar" class="lksenha"> Não tem cadastro? Clique Aqui </span></a> <br>
+              </div>
+
+              <div class="clear"> </div>
+
+            </div>
+
+          </div>
+</form>
