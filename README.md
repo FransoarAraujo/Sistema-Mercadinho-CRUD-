@@ -20,7 +20,7 @@ Para rodar na sua máquina, você vai precisar ter instalado as seguintes ferram
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/geovanesv/sistema-nodejs
+$ git clone https://github.com/FransoarAraujo/Sistema-Mercadinho-CRUD-
 
 # Acesse a pasta do projeto
 $ cd sistema-nodejs
